@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -51,6 +51,13 @@
                                             <constraint firstAttribute="trailing" secondItem="j2U-T7-ox7" secondAttribute="trailing" constant="8" id="ySH-ox-V9X"/>
                                         </constraints>
                                     </view>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9OM-Jn-Y6D" customClass="RoundedShadowImageView" customModule="VisionAppDev" customModuleProvider="target">
+                                        <rect key="frame" x="280" y="519" width="75" height="128"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="75" id="yqX-av-nSz"/>
+                                            <constraint firstAttribute="height" constant="128" id="yya-7l-Rml"/>
+                                        </constraints>
+                                    </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vMD-xi-UKK" customClass="RoundedShadowButton" customModule="VisionAppDev" customModuleProvider="target">
                                         <rect key="frame" x="20" y="611" width="85" height="36"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -62,23 +69,16 @@
                                             <color key="titleColor" red="0.84705882352941175" green="0.27843137254901962" blue="0.11764705882352941" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9OM-Jn-Y6D" customClass="RoundedShadowImageView" customModule="VisionAppDev" customModuleProvider="target">
-                                        <rect key="frame" x="280" y="519" width="75" height="128"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="75" id="yqX-av-nSz"/>
-                                            <constraint firstAttribute="height" constant="128" id="yya-7l-Rml"/>
-                                        </constraints>
-                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.56078431370000004" green="0.7843137255" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="Fk9-ky-g9s" secondAttribute="trailing" constant="20" id="02j-Lh-Eio"/>
-                                    <constraint firstItem="Fk9-ky-g9s" firstAttribute="top" secondItem="XqY-sq-BDD" secondAttribute="top" constant="30" id="0Tt-X1-89U"/>
-                                    <constraint firstAttribute="bottom" secondItem="vMD-xi-UKK" secondAttribute="bottom" constant="20" id="9D3-WU-paK"/>
-                                    <constraint firstItem="Fk9-ky-g9s" firstAttribute="leading" secondItem="XqY-sq-BDD" secondAttribute="leading" constant="20" id="OY8-DR-iYQ"/>
-                                    <constraint firstAttribute="bottom" secondItem="9OM-Jn-Y6D" secondAttribute="bottom" constant="20" id="Ojw-gB-e9X"/>
-                                    <constraint firstAttribute="trailing" secondItem="9OM-Jn-Y6D" secondAttribute="trailing" constant="20" id="gWt-lW-7sW"/>
-                                    <constraint firstItem="vMD-xi-UKK" firstAttribute="leading" secondItem="XqY-sq-BDD" secondAttribute="leading" constant="20" id="stz-N2-GQ6"/>
+                                    <constraint firstAttribute="trailing" secondItem="Fk9-ky-g9s" secondAttribute="trailing" constant="20" id="8tY-Qa-xev"/>
+                                    <constraint firstAttribute="trailing" secondItem="9OM-Jn-Y6D" secondAttribute="trailing" constant="20" id="CS6-VT-o4y"/>
+                                    <constraint firstItem="Fk9-ky-g9s" firstAttribute="leading" secondItem="XqY-sq-BDD" secondAttribute="leading" constant="20" id="IwH-Iu-n5c"/>
+                                    <constraint firstItem="vMD-xi-UKK" firstAttribute="leading" secondItem="XqY-sq-BDD" secondAttribute="leading" constant="20" id="WTj-Yb-gYX"/>
+                                    <constraint firstAttribute="bottom" secondItem="vMD-xi-UKK" secondAttribute="bottom" constant="20" id="XkB-ds-JMb"/>
+                                    <constraint firstAttribute="bottom" secondItem="9OM-Jn-Y6D" secondAttribute="bottom" constant="20" id="pAt-CA-L1x"/>
+                                    <constraint firstItem="Fk9-ky-g9s" firstAttribute="top" secondItem="XqY-sq-BDD" secondAttribute="top" constant="30" id="uqH-Bn-aEA"/>
                                 </constraints>
                             </view>
                         </subviews>
