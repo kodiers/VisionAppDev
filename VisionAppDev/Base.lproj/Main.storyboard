@@ -68,15 +68,23 @@
                                         <state key="normal" title="Flash Off">
                                             <color key="titleColor" red="0.84705882352941175" green="0.27843137254901962" blue="0.11764705882352941" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="flashBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="43q-Au-erT"/>
+                                        </connections>
                                     </button>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="mhy-ik-F3w">
+                                        <rect key="frame" x="307" y="573" width="20" height="20"/>
+                                    </activityIndicatorView>
                                 </subviews>
-                                <color key="backgroundColor" red="0.56078431370000004" green="0.7843137255" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="Fk9-ky-g9s" secondAttribute="trailing" constant="20" id="8tY-Qa-xev"/>
                                     <constraint firstAttribute="trailing" secondItem="9OM-Jn-Y6D" secondAttribute="trailing" constant="20" id="CS6-VT-o4y"/>
                                     <constraint firstItem="Fk9-ky-g9s" firstAttribute="leading" secondItem="XqY-sq-BDD" secondAttribute="leading" constant="20" id="IwH-Iu-n5c"/>
+                                    <constraint firstItem="mhy-ik-F3w" firstAttribute="centerX" secondItem="9OM-Jn-Y6D" secondAttribute="centerX" id="QWa-cs-0sb"/>
                                     <constraint firstItem="vMD-xi-UKK" firstAttribute="leading" secondItem="XqY-sq-BDD" secondAttribute="leading" constant="20" id="WTj-Yb-gYX"/>
                                     <constraint firstAttribute="bottom" secondItem="vMD-xi-UKK" secondAttribute="bottom" constant="20" id="XkB-ds-JMb"/>
+                                    <constraint firstItem="mhy-ik-F3w" firstAttribute="centerY" secondItem="9OM-Jn-Y6D" secondAttribute="centerY" id="ip1-Ju-DoR"/>
                                     <constraint firstAttribute="bottom" secondItem="9OM-Jn-Y6D" secondAttribute="bottom" constant="20" id="pAt-CA-L1x"/>
                                     <constraint firstItem="Fk9-ky-g9s" firstAttribute="top" secondItem="XqY-sq-BDD" secondAttribute="top" constant="30" id="uqH-Bn-aEA"/>
                                 </constraints>
@@ -92,6 +100,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="activityIndicator" destination="mhy-ik-F3w" id="Sfd-Qb-rOd"/>
                         <outlet property="cameraView" destination="XqY-sq-BDD" id="buf-ZO-A6f"/>
                         <outlet property="captrueImageView" destination="9OM-Jn-Y6D" id="iN9-ea-fLL"/>
                         <outlet property="confidenceLbl" destination="q2U-1n-Ljp" id="0Oq-h9-QYi"/>

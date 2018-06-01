@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC2838E820C0C616001B4DDD /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AC2838E720C0C616001B4DDD /* SqueezeNet.mlmodel */; };
 		ACABABFD20BE1876001CCBBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACABABFC20BE1876001CCBBB /* AppDelegate.swift */; };
 		ACABABFF20BE1876001CCBBB /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACABABFE20BE1876001CCBBB /* CameraVC.swift */; };
 		ACABAC0220BE1876001CCBBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACABAC0020BE1876001CCBBB /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC2838E720C0C616001B4DDD /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
 		ACABABF920BE1876001CCBBB /* VisionAppDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionAppDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACABABFC20BE1876001CCBBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACABABFE20BE1876001CCBBB /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 		ACABAC1020BE18FA001CCBBB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				AC2838E720C0C616001B4DDD /* SqueezeNet.mlmodel */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACABABFF20BE1876001CCBBB /* CameraVC.swift in Sources */,
+				AC2838E820C0C616001B4DDD /* SqueezeNet.mlmodel in Sources */,
 				ACABABFD20BE1876001CCBBB /* AppDelegate.swift in Sources */,
 				ACABAC1220BE20FF001CCBBB /* RoundedShadowView.swift in Sources */,
 				ACABAC1420BE2221001CCBBB /* RoundedShadowButton.swift in Sources */,
